@@ -1,0 +1,56 @@
+:root {
+  --black: #1a1a1a;
+  --font-family: 'Tinos', serif;
+}
+
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Tinos', serif;
+
+}
+
+.lektorat {
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	padding: 2em;
+}
+
+.message {
+	justify-content: center;
+}
+
+h3 {
+	/*justify-content: flex-start;*/
+	margin-top: 5em;
+	line-height: 1.3em;
+	font-weight: 200;
+}
+
+h1 {
+	justify-content: flex-end;
+	margin-left: 2em;
+	margin-right: 2em;
+    max-width: calc((((100vw - 336px)/ 12) * 10) + 216px);
+	line-height: 1.3em;
+	font-size: 3em;
+	font-weight: 200;
+
+}
+
+
+p {
+	margin-top: auto;
+	padding-left: 2em;
+	padding-right: 2em;
+	line-height: 1.3em;
+	vertical-align: bottom;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+
+}
